@@ -1,0 +1,31 @@
+{
+  "name": "binar-challenge-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "sequelize": "sequelize",
+    "test": "nyc --reporter=lcov ava \"tests/**/*.test.js\" --timeout=10000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sinon": "^11.1.2"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nodemon": "^2.0.13",
+    "nyc": "^15.1.0"
+  }
+}

@@ -18,39 +18,29 @@ Dibuat dengan ExpressJS, Sequelize, Postgres, dan PassportJW
 
 ### Cara menggunakan
 
-1. Clone repository ini via terminal
 
-```
-git clone https://github.com/binar-fullstack/referensi-challenge-7
-```
 
-2. Setelah selesai, masuk ke dalam direktori repository
-
-```
-cd referensi-challenge-7
-```
-
-3. Install module yang dibutuhkan
+1. Install module yang dibutuhkan
 
 ```
 npm install
 ```
 
-4. Edit `config/config.json`
+2. Edit `config/config.json`
 
-5. Buat database (perintah ini hanya berlaku di project ini karena sudah menggunakan scripts package.json)
+3. Buat database (perintah ini hanya berlaku di project ini karena sudah menggunakan scripts package.json)
 
 ```
 npm run sequelize -- db:create
 ```
 
-6. Migrasikan tabel (perintah ini hanya berlaku di project ini karena sudah menggunakan scripts package.json)
+4. Migrasikan tabel (perintah ini hanya berlaku di project ini karena sudah menggunakan scripts package.json)
 
 ```
 npm run sequelize -- db:migrate
 ```
 
-7. Jalankan program
+5. Jalankan program
 
 ```
 node index.js
